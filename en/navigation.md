@@ -18,31 +18,34 @@
   -- Navigation
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
+
+<!--
+   -[Notes]()
+   -    * # tmux
+   -    * [tmux basics](pages/tmuxBasics.md)
+   -    - - - -
+   -
+   -[About](pages/about.md)
+   -
+   -[Download](pages/download.md)
+   -
+   -->
+ <!--A more complex navigation example: ------------------------------------------>
+
 [Notes]()
-    * [tmux basics](pages/tmuxbasics.md)
+
+  * [tmux basics](pages/notes/tmuxBasics.md)
+  * [firefox basics](pages/notes/firefox-keyboard-shortcuts.md)
+  * [pract commands](pages/notes/pract-Commands.md)
+  * [gitSubModules](pages/notes/gitSubModules.md)
+  * [dnf](pages/notes/dnf-pkg-manager.md)
+  * [trackpt config](pages/notes/trackpoint-config.md)
 
 [About](pages/about.md)
+
 [Download](pages/download.md)
 
-<!-- A more complex navigation example: ----------------------------------------
-
-[Menu Item 1]()
-
-  * # SubMenu Heading 1
-  * [SubMenu Item 1](pages/subitem1.md)
-  * [SubMenu Item 2](pages/subitem2.md)
-  - - - -
-  * # SubMenu Heading 2
-  * [SubMenu Item 3](pages/subitem3.md)
-  - - - -
-  * # SubMenu Heading 3
-  * [SubMenu Item 3](pages/subitem3.md)
-
-[Menu Item 2](pages/item2.md)
-
-[Menu Item 3](pages/item3.md)
-
----------------------------------------------------------------------------- -->
+<!------------------------------------------------------------------------------ -->
 
 <!--
   -- Change the Language
