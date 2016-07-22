@@ -2,7 +2,6 @@
 
 Hello World!
 
-## Section 1
+Various notes here.
 
-something here.
 
