@@ -1,7 +1,7 @@
 {
-  "additionalFooterText": "All content and images &copy; by Your Name Goes Here&nbsp;",
+  "additionalFooterText": "By <a href='http://yuhuanq.github.io/'>Yuhuan</a><br />",
   "anchorCharacter": "#",
   "lineBreaks": "gfm",
-  "title": "Your wiki name",
+  "title": "Yuhuan's Wiki",
   "useSideMenu": true
 }

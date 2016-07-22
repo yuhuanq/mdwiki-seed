@@ -1,9 +1,9 @@
 <!--
-  -- Name of your wiki
+  -- Yuhuan's Wiki
   -- Do NOT remove the leading `#` character.
   -->
 
-# Your wiki name
+# Yuhuan's Wiki
 
 
 <!--
@@ -18,6 +18,8 @@
   -- Navigation
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
+[Notes]()
+    * [tmux basics](pages/tmuxbasics.md)
 
 [About](pages/about.md)
 [Download](pages/download.md)
