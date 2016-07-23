@@ -11,7 +11,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
   -->
 
-[gimmick:theme](spacelab)
+[gimmick:theme](flatly)
 
 
 <!--
@@ -44,6 +44,13 @@
   * [vim-script-hard-way](pages/notes/learnVimScriptTHW/learnVS.md)
   * [bash scripting](pages/notes/bashScriptGuide/bash.md)
 
+[Lab Meetings]()
+
+  * # General
+  - - - -
+  * # XWAS
+  - - - -
+
 [About](pages/about.md)
 
 [Download](pages/download.md)
@@ -68,6 +75,6 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-<!--
+
 [gimmick:themechooser](Choose theme)
--->
+
