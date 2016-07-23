@@ -1,13 +1,4 @@
----
-Title: Learn Vimscript
-
-Subject: vimscript
-
-Author: Yuhuan
-
-Date: July 07, 2016
-
----
+# Learn Vim Script THW notes
 
 ## Function arguments
 
@@ -171,3 +162,4 @@ those of other languages.
 ## ...
 
 tba
+
