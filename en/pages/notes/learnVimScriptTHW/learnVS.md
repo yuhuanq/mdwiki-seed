@@ -151,7 +151,7 @@ Combining `normal!` and `execute` fixes the special char parising error befor wi
 `` `q `` returns to the exact location of mark "q".
 
 
-## Basic Regular Expressions
+## 31. Basic Regular Expressions
 
 ` :execute "normal! gg/for .\\t in .\\+:\<cr>" `
 

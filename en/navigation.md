@@ -40,6 +40,9 @@
   * [gitSubModules](pages/notes/gitSubModules.md)
   * [dnf](pages/notes/dnf-pkg-manager.md)
   * [trackpt config](pages/notes/trackpoint-config.md)
+  * [vim-misc](pages/notes/vim-misc.md)
+  * [vim-script-hard-way](pages/notes/learnVimScriptTHW/learnVS.md)
+  * [bash scripting](pages/notes/bashScriptGuide/bash.md)
 
 [About](pages/about.md)
 
