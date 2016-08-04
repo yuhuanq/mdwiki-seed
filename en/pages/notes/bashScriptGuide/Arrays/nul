@@ -1,0 +1,13 @@
+#!/bin/bash
+
+files=()
+while read -r -d ''; do
+    files+=("$REPLY")
+done < <(find /foo -print0)
+
+# files() creates an empty array
+# -d option specifies delimiter and the emptystring = a NUL byte (\0)
+# so instead of reading a line at atime, we're reading up to a NUL byte.
+#-r option prevents treatment of \ specially
+#so once read has read some data and encountered a NUL byte, the while loop's body is executed. And what is red is put into the array.
+

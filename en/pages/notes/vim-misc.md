@@ -9,6 +9,11 @@
 #### Resizing splits
 
 ```
+C-hjkl          for navigating splits
+
+C-w r           rotate windows (downwards/rightwards)
+C-w {hjkl}      move window to occupy entire edge of viewport
+
 For a horizontally split window
 Ctrl-w +        resize height of current split by single row
 Ctrl-w -

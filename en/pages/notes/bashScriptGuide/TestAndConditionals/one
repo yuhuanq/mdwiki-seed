@@ -1,0 +1,26 @@
+#!/bin/bash
+# A simple menu:
+while true; do
+    echo "Welcome to the menu"
+    echo "  1. Say Hello"
+    echo "  2. Say Good-bye"
+
+    read -p "-> " #without any name, response stored in REPLY
+    case $REPLY in
+        1) echo 'Hello there!' ;;
+        2) echo 'Goodbye'; break ;;
+        *) echo 'What was that?' ;;
+    esac
+done
+
+# Alternative: use var to terminate instead of break statement
+
+quit=
+while test -z "$quit"; do # true of $quit is empty
+    echo "..."
+    read -p "-> "
+    case $REPLY in
+        1) echo 'See you later!'; quit=anythinghere ;;
+    esac
+done
+

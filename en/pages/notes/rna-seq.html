@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>bash.md - Grip</title>
+  <title>rna-seq.md - Grip</title>
   <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAKCgr/FRUX/xYWGP8YGBr/GRkb/xsbHP8dHR7/Hh4f/x4eIP8fHyD/ICAh/yMjJP8kJCX/JiYo/ygoKv8pKSr/LCwu/y0tLv80NDT/QUFC/0ZGR/9MTE7/UFBR/1JSUv9bW1v/XFxc/2BgYP9hYWP/aGhp/2xsbP9ycnL/d3d3/3l5e/98fHz/f3+A/2dn/P9z3a//cNX8/4CAgP+Xl5f/nZ2e/56en/+fn5//n5+h/6amp/+rq6v/rKys/7CvsP+zs7T/uLi5/7u7u/+8vLz/wMDA/8fHx//Kysr/zc3N/9HR0f/d3d3/3t7e/+Xl5f/q6ur/6+vr/+3t7f/z8/P/9fX1//b29v/39/f/+Pj4//n5+f/6+vr/+/v7//z8/P/9/f3//v7+//////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/NCYmJiYmJiYmJiYmJiYmNCZKSkpKSkpKSkpKSkpKSiYmSkpKRisdRkMbMklKSkomJkpKSSEiNUhEEQwpSUpKJiZKSi8LHhhAPAwBDDZKSiYmSkoWACA7SEc6HAEaSkomJkpKBxI/SkpKSj4ICkpKJiZKSgUTR0pKSkpGDwZKSiYmSkoTED1KSkpKOQQVSkomJkpKKgowMy4sNycIMUpKJiZKSkEZDgkDAgsNH0VKSiYmSkpKQigUBgkXLUhKSkomJkpKSkpKSkpKSkpKSkpKJiYmJiYmJiYmJiYmJiYmJiYmIyUkNDQ0NDQ0NDQ0NDQmOCYmJiYmJiYmJiYmJiYmOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" />
   <link rel="stylesheet" href="/__/grip/static/octicons/octicons.css" />
   <style>
@@ -45,552 +45,58 @@
               
                 <h3>
                   <span class="octicon octicon-book"></span>
-                  bash.md
+                  rna-seq.md
                 </h3>
               
               <article class="markdown-body entry-content" itemprop="text" id="grip-content">
                 <h1>
-<a id="user-content-gregs-wiki-bash-guide" class="anchor" href="#gregs-wiki-bash-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Greg's Wiki Bash Guide</h1>
-
-<p>source: mywiki.wooledge.org/BashGuide/</p>
-
-<p>notes</p>
+<a id="user-content-rna-seq-pipeline" class="anchor" href="#rna-seq-pipeline" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RNA-seq pipeline</h1>
 
 <h2>
-<a id="user-content-guidebashacademy" class="anchor" href="#guidebashacademy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>guide.bash.academy</h2>
+<a id="user-content-software-overview" class="anchor" href="#software-overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Software overview</h2>
 
-<h3>
-<a id="user-content-01" class="anchor" href="#01" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>01</h3>
-
-<p>Bash = Bourne again shell</p>
-
-<p>a binary is an exec prog that is exec dir by the system's kernel</p>
-
-<p>linux console terminal acts as a medium for input and output operations for system. Terminal provides text interface for running a shell i.e. bash. Command line interface.</p>
-
-<p>note: bash prog is only on eof many that can run in a terminal. Terminal program is what's making text appear, providing the text interface. It is only running a bash shell.</p>
+<p><code>FASTQ &gt; Tophat &gt; Cufflinks ||&gt; Cuffdiff</code></p>
 
 <h2>
-<a id="user-content-commands-and-arguments" class="anchor" href="#commands-and-arguments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands and arguments</h2>
+<a id="user-content-bcl2fastq" class="anchor" href="#bcl2fastq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>bcl2fastq</h2>
 
-<h3>
-<a id="user-content-review-so-far" class="anchor" href="#review-so-far" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Review so far</h3>
+<p>If necesary, to convert bcl files, use <code>bcl2fastq</code>. i.e.,</p>
 
-<ul>
-<li>Alias</li>
-<li>Function - a name that is mapped to a set of commands. i.e. "cd", "echo"</li>
-<li>Builtin - certain commands built into bash. handled dir by bash executable</li>
-<li>keyboard - like builtins but have special parsing rules. i.e. [ is builtin while [[ is a keyword. Both used for testing stuff. [[ thus able to offer an extended test. i.e. <code>&lt;</code> operator in [ and [[ parsed and treated differently.</li>
-<li>Executable - a program that can be exec by ref to its file path. or name if its loc is in PATH var</li>
-</ul>
-
-<h3>
-<a id="user-content-additionally" class="anchor" href="#additionally" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additionally</h3>
-
-<p><code>type</code> command can be used to get descrip of command type</p>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-k">&gt;</span> <span class="pl-c1">type</span> rm
-rm is hashed (/bin/rm)
-<span class="pl-k">&gt;</span> <span class="pl-c1">type</span> <span class="pl-c1">cd</span>
-<span class="pl-c1">cd</span> is a shell <span class="pl-c1">builtin</span></pre></div>
-
-<h3>
-<a id="user-content-scripts" class="anchor" href="#scripts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scripts</h3>
-
-<p>sequence of commands. Bash reads and processes <strong>in order</strong>. Only moves onto next command when current one has <strong>ended</strong>. (exception being if command has been run asynchronously, in background.)</p>
-
-<p>shebang: <code>#!/bin/bash</code></p>
-
-<p>shebang = <em>interpreter directive</em>. Specifies that /bin/bash is to be used as the interpretor when the file is used as the executable in a command. When the kernel execs a non-binary file, it reads first line if begins with <code>#!</code> kernel uses the line to determine the interpretor to relay the file to. i.e. bash or python.</p>
-
-<p>could also use <code>#!/usr/bin/env bash</code></p>
-
-<p><code>env</code> searches <code>"$PATH"</code> for the exec named by its first argument, in this case "bash."</p>
-
-<p><strong>Note</strong> <code>/bin/sh</code> <strong>is not bash!</strong> Bash however is a "sh-compatible" shell (can run most sh scripts and much of the same syntax), however, opposite is not true.</p>
-
-<p>Also don't give scripts a .sh extension. no purpose. misleading.</p>
-
-<p><code>$ bash myscript</code> to execute a script. In this ex, <code>#!</code> is just a comment, bash does nothing with it, since we already passed the file to bash interpretor manually. if run by <code>./myscript</code> shebang is used.</p>
-
-<p>Generally people like to keep scripts in a personally def dir; a few like to keep in an existent, executable PATH. To use personal dir,</p>
-
-<div class="highlight highlight-source-shell"><pre>$ mkdir -p <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$HOME</span>/bin<span class="pl-pds">"</span></span>
-$ <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">'</span>PATH="$HOME/bin:$PATH"<span class="pl-pds">'</span></span> <span class="pl-k">&gt;&gt;</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$HOME</span>/.bashrc<span class="pl-pds">"</span></span>
-$ <span class="pl-c1">source</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$HOME</span>/.bashrc<span class="pl-pds">"</span></span></pre></div>
-
-<p>traditional for dir that contain commands to be named <code>bin</code></p>
-
-<h3>
-<a id="user-content-additionally-1" class="anchor" href="#additionally-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additionally</h3>
-
-<ul>
-<li>if system has mult ver of bash installed, specify interp by abs path may be disearble t oensure right version. <code>type -a bash</code> to print paths to all bash execs in PATH.</li>
-<li>interp can be followed by one word of interp's options. i.e., <code>#!/usr/bin/bash -xv</code> will turn on verbose debugging.</li>
-<li>After defining interp in header, it is recommended to summarize the scripts purpose.</li>
-</ul>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-c">#!/usr/bin/env bash</span>
-<span class="pl-c"># script name - a short explanation of purpose</span>
-<span class="pl-c">#</span>
-<span class="pl-c"># scriptname [option] [argument] ...</span></pre></div>
+<div class="highlight highlight-source-shell"><pre>$ bcl2fastq -R <span class="pl-k">&lt;</span>path to runfolder<span class="pl-k">&gt;</span> -o <span class="pl-k">&lt;</span>output dir<span class="pl-k">&gt;</span> --sample-sheet samplesheet.csv</pre></div>
 
 <h2>
-<a id="user-content-special-chars" class="anchor" href="#special-chars" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Special Chars</h2>
+<a id="user-content-tophat" class="anchor" href="#tophat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tophat</h2>
 
-<p>when eval by Bash have a <em>non-literal</em> meaning.</p>
+<p>Mapping short reads from spliced transcripts to whole genome.</p>
 
-<p><strong>To do later, in table mode vim</strong></p>
+<div class="highlight highlight-source-shell"><pre>tophat -p 8 \
+-o tophat/sample1 \
+-G <span class="pl-smi">$REF_ANNOT</span>/genes.gtf \
+genome.fa \
+<span class="pl-k">&lt;</span>path to R1.fastq<span class="pl-k">&gt;</span> \
+<span class="pl-k">&lt;</span>path to R2.fastq<span class="pl-k">&gt;</span></pre></div>
 
-<h4>
-<a id="user-content-extra-command-substition-extranot-in-bashguide-on-this-section" class="anchor" href="#extra-command-substition-extranot-in-bashguide-on-this-section" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Extra: Command Substition (extra=not in bashguide on this section)</h4>
+<p><code>-p</code> opton specifies number of threads to use.</p>
 
-<p>is used to insert output of one command into a second commmand. e.g. with an assignment.</p>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-k">&gt;</span> today=<span class="pl-s"><span class="pl-pds">$(</span>date<span class="pl-pds">)</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-c1">echo</span> <span class="pl-smi">$today</span>
-Mon Jul 26 ...</pre></div>
-
-<div class="highlight highlight-source-shell"><pre>$ <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Today is <span class="pl-s"><span class="pl-pds">$(</span>date + %A<span class="pl-pds">)</span></span>, it's <span class="pl-s"><span class="pl-pds">$(</span>date + %H:%M<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span>
-Today is Monday, it<span class="pl-s"><span class="pl-pds">'</span>s 13:21</span></pre></div>
-
-<p>see wordsplitting for more info on parsing of substition</p>
-
-<p><strong>Examples</strong></p>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-k">&gt;</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>I am <span class="pl-smi">$LOGNAME</span><span class="pl-pds">"</span></span>
-I am yuhuan qiu.
-<span class="pl-k">&gt;</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">'</span>I am $LOGNAME<span class="pl-pds">'</span></span>
-I am <span class="pl-smi">$LOGNAME</span>
-<span class="pl-k">&gt;</span>...</pre></div>
+<p><code>-G</code> takes in GTF/GFF filename with known transcripts.</p>
 
 <h2>
-<a id="user-content-parameters" class="anchor" href="#parameters" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Parameters</h2>
+<a id="user-content-cuffdiff" class="anchor" href="#cuffdiff" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cuffdiff</h2>
 
-<p>Parameters are a sort of named space in memory you can use to retrieve or store info.</p>
+<p><code>cuffdiff</code> calculates differential expression between two sets of RNA-seq data
+(treatment vs control), using the BAM files created by tophat alignment.</p>
 
-<p>Come in two flavors: <em>vars</em> and <em>special params</em>. special params are read only and pre-est by BASH and used to communicate some type of internal status. Vars are parms that you can create and update yourself. Var names are bound by a rule:</p>
+<div class="highlight highlight-source-shell"><pre>cuffdiff \
+-o <span class="pl-k">&lt;</span>output-dir<span class="pl-k">&gt;</span> \
+-p 8 \
+<span class="pl-smi">$REF_ANNOT</span>/genes.gtf \
+T1_r1_hits.bam, T1_r2_hits.bam \
+C1_r1_hits.bam, C1_r1_hits.bam</pre></div>
 
-<p><em>name</em>: only of letters,digits,udnerscores, and begin with letter or underscore. i.e. identifier</p>
+<p><strong>use qsub</strong></p>
 
-<p>cant use spaces with <code>=</code> in assignments</p>
-
-<p>To access data in var we use <code>parameter expansion</code>. which is substitution of a param by its value. Like a dereference operator * in *var in C++.</p>
-
-<p><code>&gt;echo "foo is $foo"</code> becomes <code>&gt; echo "foo is bar"</code></p>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-k">&gt;</span> song=<span class="pl-s"><span class="pl-pds">"</span>My song.mp3<span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> rm <span class="pl-smi">$song</span>
----<span class="pl-k">&gt;</span> becomes <span class="pl-s"><span class="pl-pds">'</span>rm My Song.mp3`</span>
-<span class="pl-s">My: no such file or dir</span>
-<span class="pl-s">song.mp3: no such file or dir</span></pre></div>
-
-<p>Bash replace <code>$song</code> with contents then performed word splitting. and THEN executed.</p>
-
-<p><strong>As with all substition, command substition results will undergo word splitting</strong></p>
-
-<p>To fix this. <strong>put double quotes around every parameter expansion</strong>. As double quotes protect the text inside them form being split into multiple words, so avoids word splitting problems after substition.</p>
-
-<h3>
-<a id="user-content-special-params-and-vars" class="anchor" href="#special-params-and-vars" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Special params and vars</h3>
-
-<p>Vars are just one kind of param, params that are denoted by a name. Params that aren't vars are called special params.</p>
-
-<p>ex</p>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-k">&gt;</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>My shell is <span class="pl-smi">$0</span>, and has herese options set: <span class="pl-smi">$-</span><span class="pl-pds">"</span></span>
-My shell is -bash, and has these options <span class="pl-c1">set</span>: himB</pre></div>
-
-<p>** Insert table of special params **</p>
-
-<p>The only good PE(param expansion) is a quoted PE.</p>
-
-<h3>
-<a id="user-content-var-types" class="anchor" href="#var-types" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Var Types</h3>
-
-<p>although bash is not a typed language, does have a few diff types of vars.</p>
-
-<ul>
-<li>Array: <code>declare -a *variable*</code> the variable is a narray of strings</li>
-<li>Associative array: <code>delcare -A</code> var is n associative array of strings (bash 4.0 or higher) ?</li>
-<li>integer <code>declare -i</code>. Assigining values to this var auto triggers arithmetic evaluation</li>
-<li>Read Only <code>declare -r</code>. var can no longer be modified or unset</li>
-<li>Export <code>declare -x</code> the var is marked for export which means it will be inherited by any child process. Vars inherited this way are called <em>env vars</em>
-</li>
-</ul>
-
-<p>in practice, <code>delcare -i</code> rare. Behav is strange for anyone to misses <code>decl</code> statement. Most prefer to use explicit arithmetic commands (with ((..)) or let) when they want to perform arithmetic.</p>
-
-<p>Also rare for <code>declare -a</code> too. Sufficient to <code>array=(..)</code> Also rare for <code>declare -a</code> too. Sufficient to <code>array=(..)</code></p>
-
-<h3>
-<a id="user-content-parameter-expansion" class="anchor" href="#parameter-expansion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Parameter Expansion</h3>
-
-<p>mywiki.wooledge.org/BashGuide/Parameters/ 5/6 way down</p>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-k">for</span> <span class="pl-smi">file</span> <span class="pl-k">in</span> <span class="pl-k">*</span>.JPG <span class="pl-k">*</span>.jpeg
-<span class="pl-k">do</span> mv -- <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$file</span><span class="pl-pds">"</span></span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${file<span class="pl-k">%</span>.<span class="pl-k">*</span>}</span>.jpg<span class="pl-pds">"</span></span>
-<span class="pl-k">done</span></pre></div>
-
-<p>Renaming al ljpeg files to have a normal .jpg extension. <code>${file%.*}</code> cuts off everything from the end starting with the last period (.). Then a new extension is appended to expansion result.</p>
-
-<table>
-<thead>
-<tr>
-<th>syntax</th>
-<th>description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>${param:-word}</code></td>
-<td>
-<em>Use Default Val</em> if param is unset or null, word is substituted.</td>
-</tr>
-<tr>
-<td>''=word</td>
-<td>
-<em>assign default val</em> if param is unest or null, word is asigned to param</td>
-</tr>
-<tr>
-<td>''+word</td>
-<td>if param is null or unest, nothing is subsittued, otherwise word is substitued</td>
-</tr>
-</tbody>
-</table>
-
-<p>dd</p>
-
-<h2>
-<a id="user-content-patterns" class="anchor" href="#patterns" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Patterns</h2>
-
-<p>Bash has 3 kinds of pattern matching.</p>
-
-<p>On command line, most likely use <em>globs</em>.</p>
-
-<p>Second is <em>extended globs</em>, which allows more complicated expressions.</p>
-
-<p>Since 3.0, bash also supports <em>regular expression</em> patterns. Useful mainly in scripts to test user
-input or parse data. (Can't use regex to select filenames; only globs and extended globs can do
-that)</p>
-
-<h3>
-<a id="user-content-glob-patterns" class="anchor" href="#glob-patterns" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Glob patterns</h3>
-
-<ul>
-<li>
-<code>*</code> matches any string, including null str</li>
-<li>
-<code>?</code> maches any single char</li>
-<li>
-<code>[...]</code> matches any one of the enclosed chars</li>
-</ul>
-
-<p>globs are implicitly anchored at both ends. So a glob must match a whole string. i.e. a glob of a*
-will not match the string cat.</p>
-
-<p>when used to match <em>filenames</em> the <code>*</code> and <code>?</code> chars cannot match a slash(/) char. i.e. the glob
-<code>*/bin</code> might match foo/bin but will not match /usr/local/bin.</p>
-
-<p>note: bash does filename expansions <em>after</em> word splitting so filenames generated by a glob will not
-be split and are always handled directly.</p>
-
-<div class="highlight highlight-source-shell"><pre>$ touch <span class="pl-s"><span class="pl-pds">"</span>a b.txt<span class="pl-pds">"</span></span>
-$ ls
-a b.txt
-$ <span class="pl-k">for</span> <span class="pl-smi">file</span> <span class="pl-k">in</span> <span class="pl-s"><span class="pl-pds">`</span>ls<span class="pl-pds">`</span></span><span class="pl-k">;</span> <span class="pl-k">do</span> rm <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$file</span><span class="pl-pds">"</span></span><span class="pl-k">;</span> <span class="pl-k">done</span>
-rm: cannot remove a<span class="pl-k">;</span> no such file...
-rm: cannot remove b.txt<span class="pl-k">;</span> no such file
-$ <span class="pl-k">for</span> <span class="pl-smi">file</span> <span class="pl-k">in</span> <span class="pl-k">*</span><span class="pl-k">;</span> <span class="pl-k">do</span> rm <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$file</span><span class="pl-pds">"</span></span><span class="pl-k">;</span> <span class="pl-k">done</span>
-$ ls</pre></div>
-
-<p>for command splits strings into wrds. so 'a b.txt' gets split. Bad. globe however expands in proper
-form. It expands to string "a b.txt" which for takes as a single arg. no word slitting after for
-globs.</p>
-
-<p><strong>Always use globs instead of <code>ls</code> to enumerate files. globs expand safely and minimize risk for
-bugs</strong></p>
-
-<h3>
-<a id="user-content-extended-globs" class="anchor" href="#extended-globs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Extended Globs</h3>
-
-<p>turned off by default. can be turned on with <code>shopt</code>.</p>
-
-<p><code>shopt -s extglob</code></p>
-
-<ul>
-<li>?(list) matches zero or one occur of given pattern</li>
-<li>*(list) matches zero or more occurences</li>
-<li>+(list) matches one or more occurance of given</li>
-<li>@(list) matches one of the given patterns</li>
-<li>!(list) matches anything but the given</li>
-</ul>
-
-<p>list in parens is a list of globs/extended globs sperated by <code>|</code> char.</p>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-k">&gt;</span>ls
-names.txt tokyo.jpg cali.bmp
-<span class="pl-k">&gt;</span><span class="pl-c1">echo</span> <span class="pl-k">!</span>(<span class="pl-k">*</span>jpg<span class="pl-k">|</span><span class="pl-k">*</span>bmp)
-names.txt</pre></div>
-
-<h3>
-<a id="user-content-regular-expressions" class="anchor" href="#regular-expressions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Regular Expressions</h3>
-
-<p>similar to glob patterns, but only used for pattern matchingn, not for filename matching.</p>
-
-<p>Bash uses the <em>extended regular expression (ERE) dialect</em>. links at source for more reading.</p>
-
-<p>note: don't wrap regex patterns in quotes.</p>
-
-<h3>
-<a id="user-content-brace-expansion" class="anchor" href="#brace-expansion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Brace Expansion</h3>
-
-<p>technically not in cat of patterns, but is similar. Globs only expand to actual filenames, but brace
-expansion will expand to any possible permutation of their contents.</p>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-k">&gt;</span> <span class="pl-c1">echo</span> th{e,a}n
-<span class="pl-k">then</span> than
-<span class="pl-k">&gt;</span> <span class="pl-c1">echo</span> {/home/<span class="pl-k">*</span>,/root}/.<span class="pl-k">*</span>profile
-/home/axxo/.bash_profile /home/lhunath/.profile /root/.bash_profile /root/.profile
-<span class="pl-k">&gt;</span> <span class="pl-c1">echo</span> {1..9}
-1 2 3 4 5 6 7 8 9</pre></div>
-
-<p>brace expansion happens before filename expansion. when using both brance expansion and globs, the
-brace expansion goes first. Then the globs are expanded.</p>
-
-<p>brace expansion can only be used to generate list of words. cannot be used for pattern matching.</p>
-
-<h3>
-<a id="user-content-tests-and-conditionals" class="anchor" href="#tests-and-conditionals" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tests and Conditionals</h3>
-
-<p>command return 0 if success. 1..255 exit code for error. <code>?</code> special param holds last exit code of
-last foreground process that terminated.</p>
-
-<p><strong>Good practice</strong>: make sur ethat scripts always retur na nonzero exit code if something unexpected
-happened in there execution. you can do thsi with the exit builtin:</p>
-
-<p><code>rm file || { echo 'Could not delete file!' &gt;&amp;2; exit 1; }</code></p>
-
-<p><code>&amp;</code> with <code>&gt;</code> means what comes next is a file descriptor not a file.</p>
-
-<p><code>2</code> stderr file descriptor number. so redirect echo output to stderr stream.</p>
-
-<h3>
-<a id="user-content-control-operators--and-" class="anchor" href="#control-operators--and-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Control operators &amp;&amp; and ||</h3>
-
-<p>in general, not a good idea to string together mult diff control ops in one command. useful in
-simple but not in complex.</p>
-
-<h3>
-<a id="user-content-grouping-statements" class="anchor" href="#grouping-statements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Grouping Statements</h3>
-
-<p>Bash reads conditional ops from left to write. if <code>a &amp;&amp; b &amp;&amp; c || d</code>, even if a fails, bash skips
-second, then skips third, finall sees <code>||</code> operator, (at this stage exit code is "failure") so bash
-executes <code>d</code>. Problem.</p>
-
-<p><strong>Solution</strong></p>
-
-<div class="highlight highlight-source-shell"><pre>grep -q goodword <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$file</span><span class="pl-pds">"</span></span> <span class="pl-k">&amp;&amp;</span> <span class="pl-k">!</span> grep -q badword <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$file</span><span class="pl-pds">"</span></span> <span class="pl-k">&amp;&amp;</span> { rm <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$file</span><span class="pl-pds">"</span></span> <span class="pl-k">||</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>couldn't delete:</span>
-<span class="pl-s"><span class="pl-pds">"</span></span><span class="pl-smi">$file</span><span class="pl-s"><span class="pl-pds">"</span> &gt; &amp;2; }</span></pre></div>
-
-<p>rm and echo are one statement now.</p>
-
-<p>another common use of grouping is error handling.</p>
-
-<div class="highlight highlight-source-shell"><pre><span class="pl-c"># Check if we can go into appdir.  If not, output an error and exit the script.</span>
-<span class="pl-c1">cd</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$appdir</span><span class="pl-pds">"</span></span> <span class="pl-k">||</span> { <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Please create the appdir and try again<span class="pl-pds">"</span></span> <span class="pl-k">&gt;&amp;2</span><span class="pl-k">;</span> <span class="pl-c1">exit</span> 1<span class="pl-k">;</span> }</pre></div>
-
-<h1>
-<a id="user-content-conditional-blocks" class="anchor" href="#conditional-blocks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Conditional Blocks</h1>
-
-<div class="highlight highlight-source-shell"><pre>$ <span class="pl-k">if</span> <span class="pl-c1">true</span>
-<span class="pl-k">&gt;</span> <span class="pl-k">then</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>It was true.<span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">else</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>it was flase.<span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">fi</span>
-it was <span class="pl-c1">true</span>.</pre></div>
-
-<p>[[ pattern matching:</p>
-
-<div class="highlight highlight-source-shell"><pre>$ [[ <span class="pl-smi">$filename</span> <span class="pl-k">=</span> <span class="pl-k">*</span>.png ]] <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$filename</span> looks like a PNG file<span class="pl-pds">"</span></span></pre></div>
-
-<p>if else:</p>
-
-<div class="highlight highlight-source-shell"><pre>$ name=lhunath
-$ <span class="pl-k">if</span> [[ <span class="pl-smi">$name</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>George<span class="pl-pds">"</span></span> ]]
-<span class="pl-k">&gt;</span> <span class="pl-k">then</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Bonjour, <span class="pl-smi">$name</span><span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">elif</span> [[ <span class="pl-smi">$name</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Hans<span class="pl-pds">"</span></span> ]]
-<span class="pl-k">&gt;</span> <span class="pl-k">then</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Goeie dag, <span class="pl-smi">$name</span><span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">elif</span> [[ <span class="pl-smi">$name</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Jack<span class="pl-pds">"</span></span> ]]
-<span class="pl-k">&gt;</span> <span class="pl-k">then</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Good day, <span class="pl-smi">$name</span><span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">else</span>
-<span class="pl-k">&gt;</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>You're not George, Hans or Jack.  Who the hell are you, <span class="pl-smi">$name</span>?<span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">fi</span></pre></div>
-
-<p>Note thatthe comparison ops, <code>=, !=, &gt;, &lt;</code> treat args as strings. To string operands
-as numbers, need to use diff set of ops: <code>-eq, -ne, -lt, -gt, -le, -ge</code>.</p>
-
-<p>for <code>[,[[</code></p>
-
-<pre><code># Tests supported by [ (also known as test):
-
--e FILE: True if file exists.
-
--f FILE: True if file is a regular file.
-
--d FILE: True if file is a directory.
-
--h FILE: True if file is a symbolic link.
-
--p PIPE: True if pipe exists.
-
--r FILE: True if file is readable by you.
-
--s FILE: True if file exists and is not empty.
-
--t FD : True if FD is opened on a terminal.
-
--w FILE: True if the file is writable by you.
-
--x FILE: True if the file is executable by you.
-
--O FILE: True if the file is effectively owned by you.
-
--G FILE: True if the file is effectively owned by your group.
-
-FILE -nt FILE: True if the first file is newer than the second.
-
-FILE -ot FILE: True if the first file is older than the second.
-
--z STRING: True if the string is empty (it's length is zero).
-
--n STRING: True if the string is not empty (it's length is not zero).
-
-# String operators:
-
-STRING = STRING: True if the first string is identical to the second.
-
-STRING != STRING: True if the first string is not identical to the second.
-
-STRING &lt; STRING: True if the first string sorts before the second.
-
-STRING &gt; STRING: True if the first string sorts after the second.
-
-
-
-EXPR -a EXPR: True if both expressions are true (logical AND).
-
-EXPR -o EXPR: True if either expression is true (logical OR).
-
-! EXPR: Inverts the result of the expression (logical NOT).
-Numeric operators:
-
-INT -eq INT: True if both integers are identical.
-
-INT -ne INT: True if the integers are not identical.
-
-INT -lt INT: True if the first integer is less than the second.
-
-INT -gt INT: True if the first integer is greater than the second.
-
-INT -le INT: True if the first integer is less than or equal to the second.
-
-INT -ge INT: True if the first integer is greater than or equal to the second.
-
-
-# Additional tests supported only by [[:
-
-STRING = (or ==) PATTERN: Not string comparison like with [ (or test), but pattern matching is performed. True if the string matches the glob pattern.
-
-STRING != PATTERN: Not string comparison like with [ (or test), but pattern matching is performed. True if the string does not match the glob pattern.
-
-STRING =~ REGEX: True if the string matches the regex pattern.
-
-( EXPR ): Parentheses can be used to change the evaluation precedence.
-
-EXPR &amp;&amp; EXPR: Much like the '-a' operator of test, but does not evaluate the second expression if the first already turns out to be false.
-
-EXPR || EXPR: Much like the '-o' operator of test, but does not evaluate the second expression if the first already turns out to be true.
-</code></pre>
-
-<p>if making bash script, always use <code>[[</code>.</p>
-
-<h3>
-<a id="user-content-conditional-loops-while-until-and-for" class="anchor" href="#conditional-loops-while-until-and-for" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Conditional Loops (while, until, and for)</h3>
-
-<p><code>while</code> command: Repeat so long as command is executed successfully (exit code is 0).</p>
-
-<p><code>until</code> command: Repeat so long as command is executed unsuccessfully (exit code is not 0).</p>
-
-<p><code>for</code> variable in words: Repeat the loop for each word, setting variable to each word in turn.</p>
-
-<p><code>for</code> (( expression; expression; expression )): Starts by evaluating the first arithmetic expression; repeats the loop so long as the second arithmetic expression is successful; and at the end of each loop evaluates the third arithmetic expression.</p>
-
-<div class="highlight highlight-source-shell"><pre>$ <span class="pl-k">while</span> <span class="pl-c1">true</span>
-<span class="pl-k">&gt;</span> <span class="pl-k">do</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Infinite loop<span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">done</span>
-$ <span class="pl-s"><span class="pl-pds">((</span> i<span class="pl-k">=</span><span class="pl-c1">10</span> <span class="pl-pds">))</span></span><span class="pl-k">;</span> <span class="pl-k">while</span> <span class="pl-s"><span class="pl-pds">((</span> i <span class="pl-k">&gt;</span> <span class="pl-c1">0</span> <span class="pl-pds">))</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">do</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$i</span> empty cans of beer.<span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-s"><span class="pl-pds">((</span> i<span class="pl-k">--</span> <span class="pl-pds">))</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">done</span>
-$ <span class="pl-k">for</span> <span class="pl-s"><span class="pl-pds">((</span> i<span class="pl-k">=</span><span class="pl-c1">10</span>; i <span class="pl-k">&gt;</span> <span class="pl-c1">0</span>; i<span class="pl-k">--</span> <span class="pl-pds">))</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">do</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$i</span> empty cans of beer.<span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">done</span>
-$ <span class="pl-k">for</span> <span class="pl-smi">i</span> <span class="pl-k">in</span> {10..1}
-<span class="pl-k">&gt;</span> <span class="pl-k">do</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$i</span> empty cans of beer.<span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">done</span></pre></div>
-
-<div class="highlight highlight-source-shell"><pre>$ <span class="pl-k">for</span> <span class="pl-smi">file</span> <span class="pl-k">in</span> <span class="pl-k">*</span>.mp3
-<span class="pl-k">&gt;</span> <span class="pl-k">do</span> rm <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$file</span><span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">done</span></pre></div>
-
-<h3>
-<a id="user-content-choices-case-and-select" class="anchor" href="#choices-case-and-select" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Choices (case and select)</h3>
-
-<p>sometimes bit redundent to do if elif elif elif...</p>
-
-<p>use <code>case</code>. enumerates several possible <em>glob patterns</em> and checks contents of your param against
-these.</p>
-
-<pre><code>case $LANG in
-    en*) echo 'Hello!' ;;
-    fr*) echo 'Salut!' ;;
-    de*) echo 'Guten Tag!' ;;
-    nl*) echo 'Hallo!' ;;
-    it*) echo 'Ciao!' ;;
-    es*) echo 'Hola!' ;;
-    C|POSIX) echo 'hello world' ;;
-    *)   echo 'I do not speak your language.' ;;
-esac
-</code></pre>
-
-<p>Each choice in a <code>case</code> consists of a pattern, a right paren, a block of code, and two semi colons
-to denote end of block. <code>case</code> stops matching as soon as one is successful.</p>
-
-<p><code>select</code>. convenient for generating menu of choices that user can choose from. Menu reappears until <code>break</code> out. Is a loop.</p>
-
-<div class="highlight highlight-source-shell"><pre>$ <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Which of these does not belong in the group?<span class="pl-pds">"</span></span><span class="pl-k">;</span> \
-<span class="pl-k">&gt;</span> <span class="pl-k">select</span> <span class="pl-smi">choice</span> <span class="pl-k">in</span> Apples Pears Crisps Lemons Kiwis<span class="pl-k">;</span> <span class="pl-k">do</span>
-<span class="pl-k">&gt;</span> <span class="pl-k">if</span> [[ <span class="pl-smi">$choice</span> <span class="pl-k">=</span> Crisps ]]
-<span class="pl-k">&gt;</span> <span class="pl-k">then</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Correct!  Crisps are not fruit.<span class="pl-pds">"</span></span><span class="pl-k">;</span> <span class="pl-c1">break</span><span class="pl-k">;</span> <span class="pl-k">fi</span>
-<span class="pl-k">&gt;</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Errr... no.  Try again.<span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">done</span></pre></div>
-
-<div class="highlight highlight-source-shell"><pre>$ PS3=<span class="pl-s"><span class="pl-pds">"</span>Which of these does not belong in the group (#)? <span class="pl-pds">"</span></span><span class="pl-k">;</span> \
-<span class="pl-k">&gt;</span> <span class="pl-k">select</span> <span class="pl-smi">choice</span> <span class="pl-k">in</span> Apples Pears Crisps Lemons Kiwis<span class="pl-k">;</span> <span class="pl-k">do</span>
-<span class="pl-k">&gt;</span> <span class="pl-k">if</span> [[ <span class="pl-smi">$choice</span> <span class="pl-k">=</span> Crisps ]]
-<span class="pl-k">&gt;</span> <span class="pl-k">then</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Correct!  Crisps are not fruit.<span class="pl-pds">"</span></span><span class="pl-k">;</span> <span class="pl-c1">break</span><span class="pl-k">;</span> <span class="pl-k">fi</span>
-<span class="pl-k">&gt;</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Errr... no.  Try again.<span class="pl-pds">"</span></span>
-<span class="pl-k">&gt;</span> <span class="pl-k">done</span></pre></div>
-
-<h2>
-<a id="user-content-arrays" class="anchor" href="#arrays" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Arrays</h2>
-
-<p>probably end here, refer to official ref for more.</p>
-
-<p><a href="http://mywiki.wooledge.org/BashGuide/Arrays">http://mywiki.wooledge.org/BashGuide/Arrays</a></p>
-
-<h2>
-<a id="user-content-input-and-output" class="anchor" href="#input-and-output" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Input and Output</h2>
+<p><code>&lt;command&gt; --help</code> to see all the options and <code>man &lt;command&gt;</code> if manual pages exist,
+otherwise look at online documentation for a more detailed overview.</p>
 
               </article>
             </div>

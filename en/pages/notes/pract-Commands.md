@@ -4,6 +4,19 @@
 
 `man <command>` for manual pages.
 
+## Disable/permissive selinux
+
+`sestatus`
+
+`setenforce 0` -> permissive. Settings reset on next reboot.
+
+To disable, configure `SELINUX=disabled` in `/etc/selinux/config`.
+
+Reboot system. To confirm,
+```bash
+$ getenforce
+Disabled
+```
 
 ## youtube-dl
 

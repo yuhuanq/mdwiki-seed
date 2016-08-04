@@ -42,7 +42,10 @@
   * [trackpt config](pages/notes/trackpoint-config.md)
   * [vim-misc](pages/notes/vim-misc.md)
   * [vim-script-hard-way](pages/notes/learnVimScriptTHW/learnVS.md)
+  * [vim-cheatsheet](pages/notes/vim-cheatsheet.md)
+  * [vimperator](pages/notes/vimperator.md)
   * [bash scripting](pages/notes/bashScriptGuide/bash.md)
+  * [vim-ocaml](pages/vim-ocaml.md)
 
 [Lab Meetings]()
 
@@ -53,7 +56,7 @@
 
 [About](pages/about.md)
 
-[Download](pages/download.md)
+[Resources](pages/resources.md)
 
 <!------------------------------------------------------------------------------ -->
 

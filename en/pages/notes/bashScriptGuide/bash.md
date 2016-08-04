@@ -507,7 +507,8 @@ Each choice in a `case` consists of a pattern, a right paren, a block of code, a
 to denote end of block. `case` stops matching as soon as one is successful.
 
 
-`select`. convenient for generating menu of choices that user can choose from.
+`select`. convenient for generating menu of choices that user can choose from. Menu reappears until `break` out. Is a loop.
+
 ```bash
 $ echo "Which of these does not belong in the group?"; \
 > select choice in Apples Pears Crisps Lemons Kiwis; do
@@ -531,5 +532,7 @@ $ PS3="Which of these does not belong in the group (#)? "; \
 probably end here, refer to official ref for more.
 
 http://mywiki.wooledge.org/BashGuide/Arrays
+
+## Input and Output
 
 
